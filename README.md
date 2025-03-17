@@ -5,13 +5,13 @@ Este projeto é um sorteador de **Amigo Secreto** feito com **HTML, CSS e JavaSc
 ---
 
 ## 📌 Funcionalidades
-- ✅ Adicionar nomes à lista  
-- ✅ Impedir nomes duplicados ao padronizar primeira letra maiúscula  
-- ✅ Sortear um amigo secreto aleatoriamente  
-- ✅ Sortear se tiver dois ou mais amigos na lista  
-- ✅ Exibir o nome sorteado  
-- ✅ Desativar o botão de sorteio quando todos forem sorteados  
-- ✅ Reiniciar o sorteio e limpar os dados  
+- Adicionar nomes à lista 
+- Impedir nomes duplicados ao padronizar primeira letra maiúscula  
+- Sortear um amigo secreto aleatoriamente  
+- Sortear se tiver dois ou mais amigos na lista  
+- Exibir o nome sorteado  
+- Desativar o botão de sorteio quando todos forem sorteados  
+- Reiniciar o sorteio e limpar os dados  
 
 ---
 
@@ -37,3 +37,5 @@ Este projeto é um sorteador de **Amigo Secreto** feito com **HTML, CSS e JavaSc
 - **JavaScript** → Lógica do sorteio
 
 ---
+
+## Feito por Andressa 👩🏽
