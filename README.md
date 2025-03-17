@@ -23,6 +23,11 @@ Este projeto é um sorteador de **Amigo Secreto** feito com **HTML, CSS e JavaSc
 
 ## 🚀 Como executar o projeto
 
+1. Clique no link:
+https://challenge-amigo-secreto-eight-sigma.vercel.app/
+
+OU
+ 
 1. Baixe ou clone o repositório:
 ```bash
    git clone https://github.com/seu-usuario/amigo-secreto.git
