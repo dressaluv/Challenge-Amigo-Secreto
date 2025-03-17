@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+:root {
+    --color-primary: #690B22;
+    --color-secondary: #F1E3D3;
+    --color-tertiary: #C4C4C4;
+    --color-button: #1B4D3E;
+    --color-button-hover: #1F6E56;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 50px;
+}
+
+.header-banner img {
+    max-width: 150px;
+    height: auto; 
+}
+
+/* Seção de entrada */
+.input-section {
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* Títulos */
+.main-title {
+    text-decoration: none;
+    font-size: 65px;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 600;
+    color: var(--color-white);
+    padding: 0 40px 0 0;
+}
+
+.section-title {
+    text-decoration: none;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-secondary);
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 200;
+
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid var(--color-secondary);
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 300;
+}
+
+/* Estilos de botão */
+button {
+    padding: 15px 30px;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 2px solid var(--color-secondary);
+    border-radius: 25px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.button-add {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border-radius: 0 25px 25px 0;
+
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: var(--color-primary);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botão de sortear título */
+.button-draw {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    max-width: 400px;
+    max-height: 60px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+    max-width: 25px;
+    max-height: auto;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+/* Botão de sortear título */
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover {
+    background-color: var(--color-button-hover);
+}
+
+button:disabled {
+    background-color: gray;}
