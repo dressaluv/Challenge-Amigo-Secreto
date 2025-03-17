@@ -37,5 +37,4 @@ Este projeto é um sorteador de **Amigo Secreto** feito com **HTML, CSS e JavaSc
 - **JavaScript** → Lógica do sorteio
 
 ---
-
-## Feito por Andressa 👩🏽
+Feito por Andressa 👩🏽
